@@ -13,10 +13,10 @@ html, body {
   padding:0;
   height:100%;
   width: 100%;
-
-  
+  background:#1c050f;
+  color:#ffffff;
   font-family:"thaleahfat", helvetica;
-
+  background:#1c050f;
 }
 
 body {
@@ -32,10 +32,6 @@ margin-bottom:1rem;
   position: relative;
   min-width:320px;
   z-index:2;
-  background:linear-gradient(
-    rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/wp3057763.jpg') no-repeat;
-  background-size: 100%;
-  z-index:1;
 }
 
 .logo {
@@ -81,8 +77,24 @@ width:100%;
 min-width:320px;
 }
 
-
-#bg{}
+#level0 {
+background-image: url('../images/background-1.png');
+  background-size: cover;
+background-position: left top;
+z-index:0;
+}
+#level1 {
+background-image: url('../images/level-1.gif');
+z-index:1;
+}
+#level2 {
+background-image: url('../images/level-2.gif');
+z-index:2;
+}
+#level3 {
+background-image: url('../images/level-3.gif');
+z-index:3;
+}
 
 
 .content {
@@ -91,7 +103,7 @@ margin:auto;
 width:100%;
 position:relative;
 z-index:99999;
-  
+  background:#1c050f;
 }
 
 .content > h2 {
@@ -123,7 +135,7 @@ a.button {
 display:inline-block;
 margin:auto;
 padding:13px 20px 12px;
-background:#4a3c34;
+background:#f7d621;
 color:#1c050f;
 font-weight:bold;
 text-transform:uppercase;
@@ -193,12 +205,6 @@ max-width:1200px;
 .footer span {
 font-family:'Courier New', Courier, monospace; 
 font-weight:bold;
-}
-
-#bg{
-  height: 150px;
-  width: 150px;
-
 }
 
 
